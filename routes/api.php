@@ -13,7 +13,7 @@ use App\Http\Controllers\Api\FitnessTestScoreController;
 
 //health-check
 Route::get("/check", function () {
-    return "All Right 👍";
+    return "All Right 👍"; // test route
 });
 
 //Guest user routes
